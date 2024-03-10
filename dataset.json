@@ -1,0 +1,63 @@
+{
+    "Livros": [
+        {
+            "Autores": [
+                {
+                    "Nome": "Jeffrey",
+                    "Sobrenome": "Ullman"
+                },
+                {
+                    "Nome": "Jennifer",
+                    "Sobrenome": "Widom"
+                }
+            ],
+            "Edição": 3,
+            "ISBN": "ISBN-0-13-713526-2",
+            "Preço": 85,
+            "Título": "A First Course in Database Systems"
+        },
+        {
+            "Autores": [
+                {
+                    "Nome": "Hector",
+                    "Sobrenome": "Garcia-Molina"
+                },
+                {
+                    "Nome": "Jeffrey",
+                    "Sobrenome": "Ullman"
+                },
+                {
+                    "Nome": "Jennifer",
+                    "Sobrenome": "Widom"
+                }
+            ],
+            "ISBN": "ISBN-0-13-815504-6",
+            "Nota": "Compre também o livro 'A First Course' e faça um excelente negócio!",
+            "Preço": 100,
+            "Título": "Database Systems:The Complete Livro"
+        },
+        {
+            "Autores": [
+                {
+                    "Nome": "Andy",
+                    "Sobrenome": "Weir"
+                }
+            ],
+            "ISBN": "ISBN-9-78-655782-2517",
+            "Preço": 59.36,
+            "Título": "Project Hail Mary"
+        }
+    ],
+    "Revistas": [
+        {
+            "Ano": 2009,
+            "Mês": "Janeiro",
+            "Título": "National Geographic"
+        },
+        {
+            "Ano": 2009,
+            "Mês": "Fevereiro",
+            "Título": "Newsweek"
+        }
+    ]
+}
