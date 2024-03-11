@@ -72,14 +72,14 @@ for relationship in autorLivro:
 livros_dict = [livro.__dict__ for livro in livros]
 livrosDf = pd.DataFrame(livros_dict)
 
-livrosDf.to_csv('output/livros.csv', index=False)
+livrosDf.to_csv('livros.csv', index=False)
 
 autores_dict = [autor.__dict__ for autor in autores]
 autoresDf = pd.DataFrame(autores_dict)
 
-autoresDf.to_csv('output/autores.csv', index=False)
+autoresDf.to_csv('autores.csv', index=False)
 
 autor_livro_dict = [autorLivro.__dict__ for autorLivro in autorLivro]
 autorLivroDf = pd.DataFrame(autor_livro_dict)
 
-autorLivroDf.to_csv('output/autoresLivros.csv', index=False)
+autorLivroDf.to_csv('autoresLivros.csv', index=False)
